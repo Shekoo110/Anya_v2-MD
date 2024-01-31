@@ -106,14 +106,14 @@ module.exports = {
 
 
 // Ignore them 👇🏻
-global.botname = process.env.BotName || "K A I S E R" 
-global.author = process.env.Author || "SHEKO" 
+global.botname = process.env.BotName || "" 
+global.author = process.env.Author || "" 
 global.packname = process.env.PackName || "" 
 global.myweb = process.env.Web || "" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
 global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "sherlock" 
+global.ownername = process.env.Owner_Name || "" 
 global.ownernumber = process.env.Owner_Number || "966536471289" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
